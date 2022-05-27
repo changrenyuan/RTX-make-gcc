@@ -1,6 +1,7 @@
-# Building Keil's RTX RTOS Using GCC+Make
+# 使用 GCC+Make 构建 Keil 的 RTX RTOS
+在我经常访问的各种论坛上，例如
 
-On various forums I frequent, e.g.
+
 
 * [Keil](https://community.arm.com/developer/tools-software/tools/f/keil-forum)
 
@@ -8,16 +9,12 @@ On various forums I frequent, e.g.
 
 * [Silicon Labs](https://www.silabs.com/community/mcu/32-bit/forum)
 
-the question sometimes pops up 'Can I build RTX with gcc/make', or
-perhaps 'with CMake and GCC' ? The answer is yes, and this is how I do
-it, on Linux at least. YMMV on other platforms.
+这个问题有时会弹出“我可以使用 gcc/make 构建 RTX”，或者可能是“使用 CMake 和 GCC”吗？答案是肯定的，我就是这样做的，至少在 Linux 上是这样。其他平台上的 YMMV。
 
 
 ## CMSIS_5 Releases/Tags, RTX versions
 
-We align the tagged commits of this repo with that of the CMSIS_5 git
-repo from ARM software, since that repo is home to the RTX sources. We
-are simply providing a build process for that code.
+我们将此存储库的标记提交与 ARM 软件的 CMSIS_5 git 存储库的标记提交对齐，因为该存储库是 RTX 源的所在地。我们只是为该代码提供一个构建过程。
 
 Our
 [5.8.0](https://github.com/tobermory/RTX-make-gcc/releases/tag/5.8.0)
